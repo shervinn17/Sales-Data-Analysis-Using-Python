@@ -1,4 +1,4 @@
-# 🛒 Elevate Labs Task 7 – SQLite Sales Data Analysis
+# Sales Data Analysis Using Python 
 
 This project demonstrates a simple sales data analysis using **SQLite3** and **Python**. It creates a local SQLite database, inserts product-level sales data, and performs basic analysis using SQL queries within Python.
 
