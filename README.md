@@ -44,7 +44,8 @@ pip install pandas
 
 ## 📂 Contents
 
-- `Elevate Labs Task 7.ipynb` - Main Jupyter Notebook containing the analysis.
+- `Sales Data Analysis Using Python.ipynb` - Main Jupyter Notebook containing the analysis.
+- `Sales Data Analysis Using Python.html` - HTML File 
 - `README.md` - Project documentation (you’re here!).
 
 
