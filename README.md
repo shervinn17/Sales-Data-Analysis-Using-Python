@@ -1,22 +1,20 @@
-# Elevate Labs - Task 7
+# 🛒 Elevate Labs Task 7 – SQLite Sales Data Analysis
 
-## 📘 Overview
+This project demonstrates a simple sales data analysis using **SQLite3** and **Python**. It creates a local SQLite database, inserts product-level sales data, and performs basic analysis using SQL queries within Python.
 
-This repository contains the analysis and results for Task 7 assigned by Elevate Labs. The primary objective of this task was to perform data exploration, uncover key insights, and present a clear understanding of the dataset through visualizations and analytical techniques.
+---
 
-## 📂 Contents
+## 📦 Features
 
-- `Elevate Labs Task 7.ipynb` - Main Jupyter Notebook containing the analysis.
-- `README.md` - Project documentation (you’re here!).
+- Creates a local SQLite database (`sales_data.db`)
+- Populates it with mock sales data (product, quantity, and price)
+- Performs basic SQL queries for analysis:
+  - Total sales value per product
+  - Top-selling products by quantity
+  - Revenue generation by product
+  - Overall revenue insights
 
-## 🧠 Objective
-
-The goal of this task was to:
-- Load and preprocess the given dataset
-- Perform Exploratory Data Analysis (EDA)
-- Generate key insights using statistical summaries and visualizations
-- Optionally apply clustering or modeling techniques (if applicable)
-
+---
 ## 🛠️ Tools & Libraries Used
 
 - Python (Jupyter Notebook)
@@ -34,19 +32,19 @@ The goal of this task was to:
 - **Data Visualization**: Used various plots (bar plots, histograms, heatmaps) to visualize relationships and trends.
 - **Insights & Interpretations**: Extracted actionable or interesting findings from the dataset.
 
-## 📊 Visual Highlights
+## 🧪 Requirements
 
-*(You can embed saved figures or screenshots if this will be used on GitHub or in a report.)*
+- Python 3.x
+- SQLite3 (comes pre-installed with Python)
 
-## 📈 Potential Next Steps
-
-- Apply advanced machine learning techniques (e.g., clustering or prediction).
-- Create an interactive dashboard.
-- Conduct deeper feature engineering or time series analysis (if relevant).
-
-## 🧾 Requirements
-
-Make sure to install the required packages before running the notebook:
-
+Install dependencies (if any):
 ```bash
-pip install pandas numpy matplotlib seaborn plotly scikit-learn
+pip install pandas
+
+
+## 📂 Contents
+
+- `Elevate Labs Task 7.ipynb` - Main Jupyter Notebook containing the analysis.
+- `README.md` - Project documentation (you’re here!).
+
+
